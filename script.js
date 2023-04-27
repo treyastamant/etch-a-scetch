@@ -1,12 +1,13 @@
 
 
 function createGrid(h, w) {
+  const x = h * w;
   const container = document.querySelector('#container');
 
-  for (i = h; i < h; i++) {
-  const grid = document.createElement('div');
-  grid.textContent = "Hello";
-  container.appendChild(grid);
+  for (i = 0; i < x; i++) {
+    const grid = document.createElement('div');
+    grid.className = "grid";
+    container.appendChild(grid);
   }
 }
 

@@ -1,0 +1,12 @@
+#container {
+  display: flex;
+  width: 340px;
+  height: auto;
+  flex-wrap: wrap;
+}
+
+.grid {
+  width: 20px;
+  height: 20px;
+  border: solid 0.5px black;
+}
