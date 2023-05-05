@@ -19,7 +19,7 @@ function createGrid(h, w) {
 
 const start = document.querySelector('#gridBtn');
 start.addEventListener('click', () => {
-  createGrid(16, 16)
+  createGrid(32, 32)
 }, {once : true});
 
 
