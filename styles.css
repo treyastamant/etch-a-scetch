@@ -1,26 +1,18 @@
 #container {
   display: flex;
-  width: 340px;
-  height: 340px;
+  width: 600px;
+  height: 600px;
   flex-wrap: wrap;
 }
 
-.grid {
-  width: 20px;
-  height: 20px;
-  border: solid 0.5px black;
-}
-
-
-/* #container {
+.col {
   display: flex;
-  width: 680px;
-  height: 680px;
-  flex-wrap: wrap;
+  flex-direction: column;
+  flex: 1;
 }
 
-.grid {
-  width: 6.1%;
-  height: 6.1%;
+.row {
+  flex: 1 0 auto;
   border: solid 0.5px black;
-} */
+}
+
