@@ -8,8 +8,17 @@
   </head>
   <body>
     <h1>Etch-a-sketch</h1>
-    <h2>Hover your cursor over the white pixels to start drawing</h2>
-    <button id="gridBtn">Create Grid</button>
+    <h2>Choose your grid size, then start to draw!</h2>
+    <div class="dropdown">
+      <button id="gridBtn" class="dropbtn">Grid Size</button>
+      <div id="myDropdown" class="dropdown-content">
+        <a id="grid32">32 x 32</a>
+        <a id="grid64">64 x 64</a>
+        <a id="grid128">128 x 128</a>
+      </div>
+    </div>
+
+    <!-- <button id="gridBtn">Create Grid</button> -->
     <div id="container"></div>
   </body>
 </html>
